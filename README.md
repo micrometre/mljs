@@ -1,0 +1,1 @@
+## basic neuronal network in vanilla Javascript and without no other libraries.
