@@ -12,5 +12,9 @@ app.get("/", function (req, res, next) {
   res.render("pages/index")
 })
 
+
+app.use(express.static(path.join(__dirname, "public")))
+
+
 app.listen(port);
 console.log('Server started at http://localhost:' + port);
