@@ -1,0 +1,23 @@
+{
+  "name": "micrometre.co.uk",
+  "version": "1.0.0",
+  "description": "Ml Web Server ",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon  --ignore Makefile --ext 'html, ejs, css, js' & browser-sync start --proxy 'localhost:8080' --files 'views/pages, public/stylesheets'",
+    "start": "node  app.js"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micrometreuk"
+  },
+  "dependencies": {
+    "browser-sync": "^2.29.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
